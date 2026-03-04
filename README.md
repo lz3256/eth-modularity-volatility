@@ -124,7 +124,19 @@ See `src/fetch_eth_data.py` for the exact BigQuery SQL used.
 
 ## Key Results
 
-*To be updated after analysis is complete.*
+**Finding: Modularity *decreases* during volatility spikes (opposite to H2).**
+
+Rather than increasing before equity market stress, Ethereum network modularity drops sharply during and after SPY volatility spikes, reflecting cross-community contagion rather than network fragmentation.
+
+- **Event Study** (N = 61 events): Modularity stable at ~0.82 pre-spike, drops to ~0.80 post-spike (pre vs. post p = 0.005)
+- **Logistic Regression**: Lagged modularity β = −2.02, p = 0.048 (Newey-West HAC)
+- **Predictive Power**: AUC-ROC = 0.618, modest but non-trivial for a single on-chain feature
+- **Robustness**: Significant across 90th/95th/99th percentile thresholds and with hour-of-day fixed effects (p = 0.002)
+
+**Interpretation**: During market stress, normally isolated transaction communities become interconnected through liquidation cascades, arbitrage flows, and panic repositioning — breaking down the network's community structure.
+
+![Event Study](output/figures/event_study_modularity_2024.png)
+![ROC Curves](output/figures/roc_curves.png)
 
 ## Robustness Checks
 
