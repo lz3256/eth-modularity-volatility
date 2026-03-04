@@ -1,0 +1,14 @@
+google-cloud-bigquery
+google-cloud-bigquery-storage
+pandas
+numpy
+networkx
+python-louvain
+yfinance
+matplotlib
+seaborn
+statsmodels
+scikit-learn
+scipy
+tqdm
+pyarrow

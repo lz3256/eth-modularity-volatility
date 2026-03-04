@@ -1,0 +1,45 @@
+# Data files (too large for GitHub)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Google Cloud credentials (NEVER commit these)
+*.json
+!package.json
+application_default_credentials.json
+
+# Output (optional: uncomment to track figures/tables in git)
+# output/figures/
+# output/tables/
