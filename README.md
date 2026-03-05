@@ -84,7 +84,7 @@ where *N_t* = active nodes and *Density_t* = network density (controls for mecha
 
 ### Installation
 ```bash
-git clone https://github.com/YOUR_USERNAME/eth-modularity-volatility.git
+git clone https://github.com/lz3256/eth-modularity-volatility.git
 cd eth-modularity-volatility
 pip install -r requirements.txt
 ```
