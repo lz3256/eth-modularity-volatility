@@ -43,3 +43,5 @@ application_default_credentials.json
 # Output (optional: uncomment to track figures/tables in git)
 # output/figures/
 # output/tables/
+bash.txt
+.claude/
